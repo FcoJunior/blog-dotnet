@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7dc53e91_002D6532_002D491c_002Da77d_002D52b626602480/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateAccount_WhenDataIsValid_ShouldCreateAccount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.AccountUnitTest.CreateAccount_WhenDataIsValid_ShouldCreateAccount&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.WriterUnitTest.CreateWriter_WhenDataIsValid_ShouldCreateWriter&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

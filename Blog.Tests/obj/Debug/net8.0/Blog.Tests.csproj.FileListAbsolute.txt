@@ -103,3 +103,4 @@
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Tests/obj/Debug/net8.0/Blog.Tests.pdb
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Tests/obj/Debug/net8.0/Blog.Tests.genruntimeconfig.cache
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Tests/obj/Debug/net8.0/ref/Blog.Tests.dll
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Tests/obj/Debug/net8.0/Blog.Tests.sourcelink.json

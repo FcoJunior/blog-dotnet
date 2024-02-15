@@ -9,3 +9,4 @@
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/refint/Blog.Domain.dll
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.pdb
 /Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/ref/Blog.Domain.dll
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.sourcelink.json
