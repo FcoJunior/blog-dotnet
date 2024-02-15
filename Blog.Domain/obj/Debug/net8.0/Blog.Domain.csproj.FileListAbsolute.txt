@@ -1,0 +1,11 @@
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/bin/Debug/net8.0/Blog.Domain.deps.json
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/bin/Debug/net8.0/Blog.Domain.dll
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/bin/Debug/net8.0/Blog.Domain.pdb
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.AssemblyInfoInputs.cache
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.AssemblyInfo.cs
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.csproj.CoreCompileInputs.cache
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.dll
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/refint/Blog.Domain.dll
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/Blog.Domain.pdb
+/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/obj/Debug/net8.0/ref/Blog.Domain.dll
