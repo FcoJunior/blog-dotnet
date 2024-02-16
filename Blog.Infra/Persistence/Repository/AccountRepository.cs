@@ -18,4 +18,7 @@ public sealed class AccountRepository : IAccountRepository
 
     public async Task<Account?> GetAccountByEmail(Email email, CancellationToken cancellationToken)
         => await _context.Accounts.AsNoTracking().SingleOrDefaultAsync(x => x.Email == email, cancellationToken);
+
+    public async Task CreateAsync(Account account, CancellationToken cancellationToken)
+        => await _context.Accounts.AddAsync(account, cancellationToken);
 }

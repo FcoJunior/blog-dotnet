@@ -24,5 +24,6 @@ public sealed class SignInIntegrationTest : BaseIntegrationTest
         var result = await Sender.Send(command);
 
         result.IsError.Should().BeFalse();
+        result.Value.AccessToken.Should().NotBeNull();
     }
 }

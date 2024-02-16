@@ -1,5 +1,7 @@
 using Blog.Application.Interfaces.Auth;
+using Blog.Application.Interfaces.Data;
 using Blog.Domain.AuthenticationContext.AccountAggregate.Repository;
+using Blog.Domain.BlogContext.WriterAggregate.Repository;
 using Blog.Infra.Auth;
 using Blog.Infra.Persistence.Context;
 using Blog.Infra.Persistence.Repository;
@@ -20,8 +22,9 @@ public static class DependencyInjection
         // Persistence
         services.AddDbContext<ApplicationContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("BlogDB")));
-        
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddTransient<IAccountRepository, AccountRepository>();
+        services.AddTransient<IWriterRepository, WriterRepository>();
         
         return services;
     }    
