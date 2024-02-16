@@ -14,16 +14,23 @@ public sealed class SignInIntegrationTest : BaseIntegrationTest
     }
 
     [Fact]
-    public async Task Login_WheDataIsValid_ShouldReturnToken()
+    public async Task Signin_WheDataIsValid_ShouldReturnToken()
     {
-        var account = Account.Create("account@mail.com", "password");
-        await Context.Accounts.AddAsync(account);
-        await Context.SaveChangesAsync();
+        try
+        {
+            var account = Account.Create("account@mail.com", "password");
+            await Context.Accounts.AddAsync(account);
+            await Context.SaveChangesAsync();
 
-        var command = new SignInCommand("account@mail.com", "password");
-        var result = await Sender.Send(command);
+            var command = new SignInCommand("account@mail.com", "password");
+            var result = await Sender.Send(command);
 
-        result.IsError.Should().BeFalse();
-        result.Value.AccessToken.Should().NotBeNull();
+            result.IsError.Should().BeFalse();
+            result.Value.AccessToken.Should().NotBeNull();
+        }
+        finally
+        {
+            await ResetDatabase();
+        }
     }
 }

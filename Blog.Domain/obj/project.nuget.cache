@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwz6XUk8wSWAYW70PvxSLoejMNlbcpb7M90upNvwB4ajSff7QfG+Ylm0/8bCZCPvOQeQA+ZojUpx/DFQ+T4Ndw==",
+  "dgSpecHash": "SUx74Z3xT1yA6cskG0SVto2mqVC/DgCnyTl6cHZwdtXyo/jojziDCZ/xvIK8w1xoPBXXrOMVTuI4IccRHK2Fvg==",
   "success": true,
-  "projectFilePath": "/Users/fcojunior/Documents/Workspace/playground/Blog/Blog.Domain/Blog.Domain.csproj",
+  "projectFilePath": "/Users/fcojunior/Workspace/playground/blog-dotnet/Blog.Domain/Blog.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/fcojunior/.nuget/packages/erroror/1.10.0/erroror.1.10.0.nupkg.sha512"
   ],
