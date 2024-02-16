@@ -17,6 +17,7 @@ public sealed class Post : AggregateRoot<PostId>
     public WriterId WriterId { get; private set; }
     public DateTime CreationDate { get; private set; }
     public DateTime? UpdateTime { get; private set; }
+    public DateTime? DeletedAt { get; private set; }
     
     public static Post Create(string title, string content, WriterId writerId, string thumbnail)
     {

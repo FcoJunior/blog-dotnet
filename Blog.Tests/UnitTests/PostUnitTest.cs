@@ -1,4 +1,5 @@
 using Blog.Domain.BlogContext.PostAggregate;
+using Blog.Domain.BlogContext.PostAggregate.Events;
 using Blog.Domain.BlogContext.WriterAggregate.ValueObjects;
 using FluentAssertions;
 
@@ -34,5 +35,6 @@ public sealed class PostUnitTest
         post.Publish();
         post.Status.Should().Be(StatusPost.Published);
         post.UpdateTime.Should().NotBeNull();
+        post.DomainEvents.First().Should().BeOfType(typeof(PostPublished));
     }
 }
