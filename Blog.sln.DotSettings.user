@@ -4,5 +4,6 @@
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.AccountUnitTest.CreateAccount_WhenDataIsValid_ShouldCreateAccount&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.WriterUnitTest.CreateWriter_WhenDataIsValid_ShouldCreateWriter&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.PostUnitTest.CreatePost_WhenDataIsValid_ShouldCreatePost&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.IntegrationTests.Tests.Authentication.SignInIntegrationTest.Login_WheDataIsValid_ShouldReturnToken&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
