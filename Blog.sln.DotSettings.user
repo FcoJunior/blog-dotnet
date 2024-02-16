@@ -6,5 +6,7 @@
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.PostUnitTest.CreatePost_WhenDataIsValid_ShouldCreatePost&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.IntegrationTests.Tests.Authentication.SignInIntegrationTest.Login_WheDataIsValid_ShouldReturnToken&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.IntegrationTests.Tests.Authentication.SignUpIntegrationTest.SignUp_WheDataIsValid_ShouldCreateAccountAndWriter&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.PostUnitTest.UpdatePost_WhenDataIsValid_ShouldUpdateValues&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::18120B37-0F77-4071-B97C-ACFBABB37054::net8.0::Blog.Tests.UnitTests.PostUnitTest.PublishPost_WhenDataIsValid_ShouldUpdateStatus&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
